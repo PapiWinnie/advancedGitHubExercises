@@ -91,8 +91,10 @@ Part 3:
 
 1. Stashing Changes
     git stash
+
 2. Retrieving Stashed Changes
     git stash pop
+    
 3. Simulating Merge Conflict
     Modify a file in both main and ft/feature-branch.
     Merge the branches:
