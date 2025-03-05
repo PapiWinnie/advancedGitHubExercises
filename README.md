@@ -85,3 +85,29 @@ Part 2: Branching Basics
 10. Detached HEAD
     git checkout <commit-hash>
     To retutn: git checkout main
+
+
+Part 3:
+
+1. Stashing Changes
+    git stash
+2. Retrieving Stashed Changes
+    git stash pop
+3. Simulating Merge Conflict
+    Modify a file in both main and ft/feature-branch.
+    Merge the branches:
+    git checkout main
+    git merge -m ft/feature-branch
+
+5. .gitignore File
+    echo "/tmp" > .gitignore
+    git add .gitignore
+    git commit -m "chore: Ignore tmp files"
+   
+9. Pushing to Remote
+    git push origin main
+   
+11. Pulling from Remote
+    Modify README.md on GitHub.
+    Then Pull changes:
+        git pull origin main
