@@ -66,7 +66,7 @@ Part 2: Branching Basics
     git push origin ft/new-feature
 
 5. Deleting a Branch
-    git branch -d ft/new-feature
+    git branch -D ft/new-feature
 
 6. Create a Branch from a Commit
     git checkout -b ft/new-branch-from-commit <commit-hash>
@@ -94,7 +94,7 @@ Part 3:
 
 2. Retrieving Stashed Changes
     git stash pop
-    
+
 3. Simulating Merge Conflict
     Modify a file in both main and ft/feature-branch.
     Merge the branches:
